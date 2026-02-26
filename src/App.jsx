@@ -5,6 +5,7 @@ import GsapStager from './components/GsapStager'
 import GsapTimeLine from './components/GsapTimeLine'
 import GsapTo from './components/gsapTo'
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
     <>
      <main>
       <Navbar/>
+      <Hero/>
+      <div className='h-dvh bg-black'/>
      </main>
       {/* <GsapTo/>
 
