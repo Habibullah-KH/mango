@@ -1,11 +1,8 @@
 import { ScrollTrigger, SplitText } from 'gsap/all'
 import gsap from 'gsap'
-import GsapScrollTriger from './components/GsapScrollTriger'
-import GsapStager from './components/GsapStager'
-import GsapTimeLine from './components/GsapTimeLine'
-import GsapTo from './components/gsapTo'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Juices from './components/Juices';
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
 function App() {
@@ -15,14 +12,9 @@ function App() {
      <main>
       <Navbar/>
       <Hero/>
+      <Juices/>
      </main>
-      {/* <GsapTo/>
 
-      <GsapTimeLine/> */}
-
-      {/* <GsapStager/> */}
-
-      {/* <GsapScrollTriger/> */}
 
     </>
   )

@@ -43,7 +43,7 @@ export default function Hero() {
         .to('.left-leaf', {y:-200}, 0)
 
         const startValue = isMobile ? 'top 50%' : 'center 60%';
-        const endValue = isMobile ? 'top 120%' : 'bottom top';
+        const endValue = isMobile ? '120% top' : 'bottom top';
 
         const tl = gsap.timeline({
             scrollTrigger: {
