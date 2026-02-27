@@ -9,7 +9,7 @@ export default function Hero() {
     const videoRef = useRef();
     const isMobile = useMediaQuery({maxWidth: 767})
 
-    
+
     useGSAP(()=>{
         const heroSplit = new SplitText('.title', {type: 'chars, words'});
         const paragraphSplit = new SplitText('.subtitle', {type: 'lines'});
@@ -70,7 +70,7 @@ export default function Hero() {
   return (
     <>
         <section id="hero" className="noisy">
-        <h1 className='title'>MOJITO</h1>
+        <h1 className='title'>MANGO</h1>
 
         <img src='/images/hero-left-leaf.png'
             alt='left-leaf'
