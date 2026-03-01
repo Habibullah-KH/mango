@@ -1,16 +1,51 @@
-# React + Vite
+# GSAP Learning Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my first learning project on **GSAP**.
 
-Currently, two official plugins are available:
+In this project, I tried to implement dynamic effects and modern animations using GSAP with React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The goal of this project is to practice animation fundamentals, improve UI motion, and understand how GSAP can make web interactions feel smooth and engaging.
 
-## React Compiler
+## Live Link
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://fresh-juices.netlify.app/
 
-## Expanding the ESLint configuration
+## Learning Source
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I learned GSAP concepts and project inspiration from:
+
+https://github.com/adrianhajdin
+
+## About the Project
+
+This project is a front-end practice app where I focused on combining:
+
+- React component structure
+- GSAP timeline and scroll-based animation ideas
+- Better visual storytelling through motion
+
+I mainly experimented with how elements enter, move, and transition on the page to create a more dynamic user experience.
+
+## Tech Stack
+
+- React
+- Vite
+- GSAP
+
+## What I Practiced
+
+- Basic GSAP animation methods and timing
+- Sequencing with timeline-based effects
+- Building smooth transitions for sections and UI elements
+- Integrating animation logic into reusable React components
+
+## Run Locally
+
+```bash
+pnpm install
+pnpm dev
+```
+
+## Feedback
+
+This is a learning project, so feedback and suggestions are always welcome.
